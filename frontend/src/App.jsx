@@ -8,7 +8,7 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from 'recharts';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://pricetracker-production-10a2.up.railway.app/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('feed'); // 'feed' | 'publish' | 'monitor_list' | 'monitor_detail'
